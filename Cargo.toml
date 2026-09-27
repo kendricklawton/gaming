@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+    "game",
+    "crates/*"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+bevy = "0.18.1"
+core = { path = "crates/core" }
+camera = { path = "crates/camera" }
+player = { path = "crates/player" }

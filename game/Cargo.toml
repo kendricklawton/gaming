@@ -1,0 +1,10 @@
+[package]
+name = "isometric_game"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+bevy.workspace = true
+core.workspace = true
+camera.workspace = true
+player.workspace = true
